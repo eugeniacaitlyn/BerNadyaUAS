@@ -34,6 +34,7 @@ class SignInActivity : AppCompatActivity() {
                 val sharedPreferences: SharedPreferences = getSharedPreferences("BERNADYAESPORT", Context.MODE_PRIVATE)
                 val userJson = sharedPreferences.getString("USER", "")
                 val map: Map<*, *>? = gson.fromJson(userJson, Map::class.java)
+
                 if (map?.get("username") == username && map.get("password") == password) {
                     val intent = Intent(this,MainActivity2::class.java)
                     startActivity(intent)

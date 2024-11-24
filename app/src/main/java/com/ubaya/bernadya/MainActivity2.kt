@@ -11,7 +11,6 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.widget.ViewPager2
 import com.ubaya.bernadya.databinding.ActivityMain2Binding
-import com.ubaya.bernadya.databinding.ActivityMainBinding
 
 class MainActivity2 : AppCompatActivity() {
     private lateinit var binding: ActivityMain2Binding

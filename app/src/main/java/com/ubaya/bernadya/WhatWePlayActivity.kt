@@ -19,7 +19,7 @@ class WhatWePlayActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnhome.setOnClickListener{
-            val intent = Intent(this,MainActivity::class.java)
+            val intent = Intent(this,MainActivity2::class.java)
             startActivity(intent)
         }
 
